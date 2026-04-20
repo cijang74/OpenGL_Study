@@ -1,0 +1,14 @@
+# Target labels
+ dep-spdlog
+# Source files and their labels
+C:/OpenGL_Study/point_example/build/CMakeFiles/dep-spdlog
+C:/OpenGL_Study/point_example/build/CMakeFiles/e02507509afb58f05ec1d81ee3709757/dep-spdlog.rule
+C:/OpenGL_Study/point_example/build/CMakeFiles/a84a12de3991cff583073421ccc973ba/dep-spdlog-complete.rule
+C:/OpenGL_Study/point_example/build/CMakeFiles/d4ee800b998f710fdb7e0d741d968975/dep-spdlog-build.rule
+C:/OpenGL_Study/point_example/build/CMakeFiles/d4ee800b998f710fdb7e0d741d968975/dep-spdlog-configure.rule
+C:/OpenGL_Study/point_example/build/CMakeFiles/d4ee800b998f710fdb7e0d741d968975/dep-spdlog-download.rule
+C:/OpenGL_Study/point_example/build/CMakeFiles/d4ee800b998f710fdb7e0d741d968975/dep-spdlog-install.rule
+C:/OpenGL_Study/point_example/build/CMakeFiles/d4ee800b998f710fdb7e0d741d968975/dep-spdlog-mkdir.rule
+C:/OpenGL_Study/point_example/build/CMakeFiles/d4ee800b998f710fdb7e0d741d968975/dep-spdlog-patch.rule
+C:/OpenGL_Study/point_example/build/CMakeFiles/d4ee800b998f710fdb7e0d741d968975/dep-spdlog-test.rule
+C:/OpenGL_Study/point_example/build/CMakeFiles/d4ee800b998f710fdb7e0d741d968975/dep-spdlog-update.rule

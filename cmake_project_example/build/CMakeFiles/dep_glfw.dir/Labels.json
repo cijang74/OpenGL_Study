@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/dep_glfw"
+		},
+		{
+			"file" : "C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/a031fbb7c561737900f546f548bd3bfc/dep_glfw.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/337392aa4b5ee5b537ae642c25d0b31f/dep_glfw-complete.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/14dc0b0d745ee93b55267fff77d22c18/dep_glfw-build.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/14dc0b0d745ee93b55267fff77d22c18/dep_glfw-configure.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/14dc0b0d745ee93b55267fff77d22c18/dep_glfw-download.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/14dc0b0d745ee93b55267fff77d22c18/dep_glfw-install.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/14dc0b0d745ee93b55267fff77d22c18/dep_glfw-mkdir.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/14dc0b0d745ee93b55267fff77d22c18/dep_glfw-patch.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/14dc0b0d745ee93b55267fff77d22c18/dep_glfw-test.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/14dc0b0d745ee93b55267fff77d22c18/dep_glfw-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dep_glfw"
+		],
+		"name" : "dep_glfw"
+	}
+}

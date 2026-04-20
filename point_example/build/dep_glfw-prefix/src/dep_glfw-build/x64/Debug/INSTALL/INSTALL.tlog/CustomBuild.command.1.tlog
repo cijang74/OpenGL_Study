@@ -1,0 +1,10 @@
+^C:\OPENGL_STUDY\POINT_EXAMPLE\BUILD\DEP_GLFW-PREFIX\SRC\DEP_GLFW-BUILD\CMAKEFILES\EA7DC3577635C715D9B9D7B97BB9263C\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

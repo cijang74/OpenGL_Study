@@ -1,0 +1,156 @@
+^C:\OPENGL_STUDY\POINT_EXAMPLE\BUILD\CMAKEFILES\A744ECB3A08B624CC03D52A567192C7A\DEP_GLFW-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/OpenGL_Study/point_example/build/dep_glfw-prefix/tmp/dep_glfw-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/OpenGL_Study/point_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL_STUDY\POINT_EXAMPLE\BUILD\CMAKEFILES\A744ECB3A08B624CC03D52A567192C7A\DEP_GLFW-DOWNLOAD.RULE
+setlocal
+cd C:\OpenGL_Study\point_example\build\dep_glfw-prefix\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/OpenGL_Study/point_example/build/dep_glfw-prefix/tmp/dep_glfw-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/OpenGL_Study/point_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL_STUDY\POINT_EXAMPLE\BUILD\CMAKEFILES\A744ECB3A08B624CC03D52A567192C7A\DEP_GLFW-UPDATE.RULE
+setlocal
+cd C:\OpenGL_Study\point_example\build\dep_glfw-prefix\src\dep_glfw
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/OpenGL_Study/point_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL_STUDY\POINT_EXAMPLE\BUILD\CMAKEFILES\A744ECB3A08B624CC03D52A567192C7A\DEP_GLFW-PATCH.RULE
+setlocal
+cd C:\OpenGL_Study\point_example\build\dep_glfw-prefix\src\dep_glfw
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/OpenGL_Study/point_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL_STUDY\POINT_EXAMPLE\BUILD\CMAKEFILES\A744ECB3A08B624CC03D52A567192C7A\DEP_GLFW-CONFIGURE.RULE
+setlocal
+cd C:\OpenGL_Study\point_example\build\dep_glfw-prefix\src\dep_glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_PREFIX=C:/OpenGL_Study/point_example/build/install -DCMAKE_BUILD_TYPE= -DGLFW_BUILD_EXAMPLES=OFF -DGLFW_BUILD_TESTS=OFF -DGLFW_BUILD_DOCS=OFF "-GVisual Studio 17 2022" -Ax64 -Thost=x64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files/Microsoft Visual Studio/2022/Community" -S C:/OpenGL_Study/point_example/build/dep_glfw-prefix/src/dep_glfw -B C:/OpenGL_Study/point_example/build/dep_glfw-prefix/src/dep_glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/OpenGL_Study/point_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL_STUDY\POINT_EXAMPLE\BUILD\CMAKEFILES\A744ECB3A08B624CC03D52A567192C7A\DEP_GLFW-BUILD.RULE
+setlocal
+cd C:\OpenGL_Study\point_example\build\dep_glfw-prefix\src\dep_glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/OpenGL_Study/point_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL_STUDY\POINT_EXAMPLE\BUILD\CMAKEFILES\A744ECB3A08B624CC03D52A567192C7A\DEP_GLFW-INSTALL.RULE
+setlocal
+cd C:\OpenGL_Study\point_example\build\dep_glfw-prefix\src\dep_glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug --target install
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/OpenGL_Study/point_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL_STUDY\POINT_EXAMPLE\BUILD\CMAKEFILES\A744ECB3A08B624CC03D52A567192C7A\DEP_GLFW-TEST.RULE
+setlocal
+cd C:\OpenGL_Study\point_example\build\dep_glfw-prefix\src\dep_glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/OpenGL_Study/point_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL_STUDY\POINT_EXAMPLE\BUILD\CMAKEFILES\A84A12DE3991CFF583073421CCC973BA\DEP_GLFW-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/OpenGL_Study/point_example/build/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/OpenGL_Study/point_example/build/CMakeFiles/Debug/dep_glfw-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/OpenGL_Study/point_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL_STUDY\POINT_EXAMPLE\BUILD\CMAKEFILES\E02507509AFB58F05EC1D81EE3709757\DEP_GLFW.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL_STUDY\POINT_EXAMPLE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/OpenGL_Study/point_example -BC:/OpenGL_Study/point_example/build --check-stamp-file C:/OpenGL_Study/point_example/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\OPENGL_STUDY\FIRST_OPENGL_EXAMPLE\BUILD\DEP_GLAD-PREFIX\SRC\DEP_GLAD-BUILD\CMAKEFILES\52ADABC765984C8370F18C4863D73C05\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/OpenGL_Study/point_example/build/CMakeFiles/dep_glad"
+		},
+		{
+			"file" : "C:/OpenGL_Study/point_example/build/CMakeFiles/e02507509afb58f05ec1d81ee3709757/dep_glad.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/point_example/build/CMakeFiles/a84a12de3991cff583073421ccc973ba/dep_glad-complete.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/point_example/build/CMakeFiles/2b35aff788089b5de627c81ceaf41283/dep_glad-build.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/point_example/build/CMakeFiles/2b35aff788089b5de627c81ceaf41283/dep_glad-configure.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/point_example/build/CMakeFiles/2b35aff788089b5de627c81ceaf41283/dep_glad-download.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/point_example/build/CMakeFiles/2b35aff788089b5de627c81ceaf41283/dep_glad-install.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/point_example/build/CMakeFiles/2b35aff788089b5de627c81ceaf41283/dep_glad-mkdir.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/point_example/build/CMakeFiles/2b35aff788089b5de627c81ceaf41283/dep_glad-patch.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/point_example/build/CMakeFiles/2b35aff788089b5de627c81ceaf41283/dep_glad-test.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/point_example/build/CMakeFiles/2b35aff788089b5de627c81ceaf41283/dep_glad-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dep_glad"
+		],
+		"name" : "dep_glad"
+	}
+}

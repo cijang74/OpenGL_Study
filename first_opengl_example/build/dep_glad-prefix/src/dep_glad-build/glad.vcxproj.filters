@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OpenGL_Study\first_opengl_example\build\dep_glad-prefix\src\dep_glad-build\src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OpenGL_Study\first_opengl_example\build\dep_glad-prefix\src\dep_glad-build\include\glad\glad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\OpenGL_Study\first_opengl_example\build\dep_glad-prefix\src\dep_glad\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{36CF4D1B-8D43-3A0A-995E-0870268FDDA8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{57023884-B696-3D30-92D0-B81528D2BE96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D8501CF0-B2D6-37B2-8B44-B8F93BF15096}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

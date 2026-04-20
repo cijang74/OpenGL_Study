@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/OpenGL_Study/first_opengl_example/build/CMakeFiles/dep-spdlog"
+		},
+		{
+			"file" : "C:/OpenGL_Study/first_opengl_example/build/CMakeFiles/2a7998722c659c879f90d7be6c9d2125/dep-spdlog.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/first_opengl_example/build/CMakeFiles/ad5cd2b0bab8984c3a84d011fd8bd2c0/dep-spdlog-complete.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/first_opengl_example/build/CMakeFiles/6d9cc4dab3b8b1c6454fe117a0ac19bd/dep-spdlog-build.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/first_opengl_example/build/CMakeFiles/6d9cc4dab3b8b1c6454fe117a0ac19bd/dep-spdlog-configure.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/first_opengl_example/build/CMakeFiles/6d9cc4dab3b8b1c6454fe117a0ac19bd/dep-spdlog-download.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/first_opengl_example/build/CMakeFiles/6d9cc4dab3b8b1c6454fe117a0ac19bd/dep-spdlog-install.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/first_opengl_example/build/CMakeFiles/6d9cc4dab3b8b1c6454fe117a0ac19bd/dep-spdlog-mkdir.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/first_opengl_example/build/CMakeFiles/6d9cc4dab3b8b1c6454fe117a0ac19bd/dep-spdlog-patch.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/first_opengl_example/build/CMakeFiles/6d9cc4dab3b8b1c6454fe117a0ac19bd/dep-spdlog-test.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/first_opengl_example/build/CMakeFiles/6d9cc4dab3b8b1c6454fe117a0ac19bd/dep-spdlog-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dep-spdlog"
+		],
+		"name" : "dep-spdlog"
+	}
+}

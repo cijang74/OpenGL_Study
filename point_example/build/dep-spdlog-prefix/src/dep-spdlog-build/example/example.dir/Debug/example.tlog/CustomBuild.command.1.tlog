@@ -1,0 +1,10 @@
+^C:\OPENGL_STUDY\POINT_EXAMPLE\BUILD\DEP-SPDLOG-PREFIX\SRC\DEP-SPDLOG\EXAMPLE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/OpenGL_Study/point_example/build/dep-spdlog-prefix/src/dep-spdlog -BC:/OpenGL_Study/point_example/build/dep-spdlog-prefix/src/dep-spdlog-build --check-stamp-file C:/OpenGL_Study/point_example/build/dep-spdlog-prefix/src/dep-spdlog-build/example/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

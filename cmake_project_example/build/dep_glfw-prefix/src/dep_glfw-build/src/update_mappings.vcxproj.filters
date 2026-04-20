@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\OpenGL_Study\cmake_project_example\build\dep_glfw-prefix\src\dep_glfw-build\CMakeFiles\5cdee5bf506cfd54c263df471a9553fb\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\cmake_project_example\build\dep_glfw-prefix\src\dep_glfw\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\OpenGL_Study\cmake_project_example\build\dep_glfw-prefix\src\dep_glfw\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\OpenGL_Study\cmake_project_example\build\dep_glfw-prefix\src\dep_glfw\CMake\GenerateMappings.cmake" />
+    <None Include="C:\OpenGL_Study\cmake_project_example\build\dep_glfw-prefix\src\dep_glfw-build\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{65CD7332-BA27-36A3-9F5D-6C1C444862F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BF5EAD3A-CCFB-3E59-B0F1-5473DFB4CC21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

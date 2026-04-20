@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\OpenGL_Study\point_example\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\OpenGL_Study\point_example\build\x64\Debug\dep-spdlog</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\OpenGL_Study\point_example\build\x64\Debug\dep_glad</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\OpenGL_Study\point_example\build\x64\Debug\dep_glfw</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\OpenGL_Study\point_example\build\Debug\point_example.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\OpenGL_Study\point_example\build\CMakeFiles\a744ecb3a08b624cc03d52a567192c7a\dep_glfw-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\point_example\build\CMakeFiles\a744ecb3a08b624cc03d52a567192c7a\dep_glfw-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\point_example\build\CMakeFiles\a744ecb3a08b624cc03d52a567192c7a\dep_glfw-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\point_example\build\CMakeFiles\a744ecb3a08b624cc03d52a567192c7a\dep_glfw-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\point_example\build\CMakeFiles\a744ecb3a08b624cc03d52a567192c7a\dep_glfw-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\point_example\build\CMakeFiles\a744ecb3a08b624cc03d52a567192c7a\dep_glfw-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\point_example\build\CMakeFiles\a744ecb3a08b624cc03d52a567192c7a\dep_glfw-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\point_example\build\CMakeFiles\a744ecb3a08b624cc03d52a567192c7a\dep_glfw-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\point_example\build\CMakeFiles\a84a12de3991cff583073421ccc973ba\dep_glfw-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\point_example\build\CMakeFiles\e02507509afb58f05ec1d81ee3709757\dep_glfw.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\point_example\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\OpenGL_Study\point_example\build\CMakeFiles\dep_glfw" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{97C794F7-66E7-3681-BE18-77123C973F9A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

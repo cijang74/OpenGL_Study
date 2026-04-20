@@ -1,0 +1,14 @@
+# Target labels
+ dep-spdlog
+# Source files and their labels
+C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/dep-spdlog
+C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/a031fbb7c561737900f546f548bd3bfc/dep-spdlog.rule
+C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/337392aa4b5ee5b537ae642c25d0b31f/dep-spdlog-complete.rule
+C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/ea7a59efc8f411ff2cf68e47c96ebc8a/dep-spdlog-build.rule
+C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/ea7a59efc8f411ff2cf68e47c96ebc8a/dep-spdlog-configure.rule
+C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/ea7a59efc8f411ff2cf68e47c96ebc8a/dep-spdlog-download.rule
+C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/ea7a59efc8f411ff2cf68e47c96ebc8a/dep-spdlog-install.rule
+C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/ea7a59efc8f411ff2cf68e47c96ebc8a/dep-spdlog-mkdir.rule
+C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/ea7a59efc8f411ff2cf68e47c96ebc8a/dep-spdlog-patch.rule
+C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/ea7a59efc8f411ff2cf68e47c96ebc8a/dep-spdlog-test.rule
+C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/ea7a59efc8f411ff2cf68e47c96ebc8a/dep-spdlog-update.rule

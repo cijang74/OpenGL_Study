@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/OpenGL_Study/point_example/build/dep_glfw-prefix/src/dep_glfw-build/cmake_install.cmake",
+		"C:/OpenGL_Study/point_example/build/dep_glfw-prefix/src/dep_glfw-build/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\OpenGL_Study\cmake_project_example\build\CMakeFiles\ea7a59efc8f411ff2cf68e47c96ebc8a\dep-spdlog-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\cmake_project_example\build\CMakeFiles\ea7a59efc8f411ff2cf68e47c96ebc8a\dep-spdlog-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\cmake_project_example\build\CMakeFiles\ea7a59efc8f411ff2cf68e47c96ebc8a\dep-spdlog-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\cmake_project_example\build\CMakeFiles\ea7a59efc8f411ff2cf68e47c96ebc8a\dep-spdlog-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\cmake_project_example\build\CMakeFiles\ea7a59efc8f411ff2cf68e47c96ebc8a\dep-spdlog-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\cmake_project_example\build\CMakeFiles\ea7a59efc8f411ff2cf68e47c96ebc8a\dep-spdlog-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\cmake_project_example\build\CMakeFiles\ea7a59efc8f411ff2cf68e47c96ebc8a\dep-spdlog-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\cmake_project_example\build\CMakeFiles\ea7a59efc8f411ff2cf68e47c96ebc8a\dep-spdlog-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\cmake_project_example\build\CMakeFiles\337392aa4b5ee5b537ae642c25d0b31f\dep-spdlog-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\cmake_project_example\build\CMakeFiles\a031fbb7c561737900f546f548bd3bfc\dep-spdlog.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\cmake_project_example\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\OpenGL_Study\cmake_project_example\build\CMakeFiles\dep-spdlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D894787D-D3C1-3E57-BFDF-31718212247D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1607 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.8.9-hotspot\\bin"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NetSarang\\Xftp 8\\"
+        - "C:\\Program Files (x86)\\NetSarang\\Xshell 8\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.8.9-hotspot\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Users\\cijan\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\cijan\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\cijan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cijan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\cijan\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\cijan\\.dotnet\\tools"
+        - "C:\\Users\\cijan\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/OpenGL_Study/cmake_project_example/build/install"
+      ENV{INCLUDE}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\atlmfc\\include"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\um"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\shared"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\winrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\cppwinrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      msbuild 버전 17.13.19+0d9f5a35a(.NET Framework용)
+      빌드 시작: 2026-04-19 오후 10:55:33
+      
+      1 노드의 "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\4.3.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트(기본 대상)입니다.
+      PrepareForBuild:
+        "Debug\\" 디렉터리를 만들고 있습니다.
+        구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
+        "Debug\\CompilerIdCXX.tlog\\" 디렉터리를 만들고 있습니다.
+      InitializeBuildStatus:
+        "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+        "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\4.3.0-rc3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+        "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate"에 연결(touching)하고 있습니다.
+      "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\4.3.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+      
+      빌드했습니다.
+          경고 0개
+          오류 0개
+      
+      경과 시간: 00:00:00.67
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/OpenGL_Study/cmake_project_example/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/4.3.0-rc3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/"
+      - "C:/Program Files (x86)/HTML Help Workshop/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.8.9-hotspot/bin/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NetSarang/Xftp 8/"
+      - "C:/Program Files (x86)/NetSarang/Xshell 8/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Users/cijan/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/cijan/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/cijan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/cijan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/cijan/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/cijan/.dotnet/tools/"
+      - "C:/Users/cijan/AppData/Roaming/npm/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.8.9-hotspot\\bin"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NetSarang\\Xftp 8\\"
+        - "C:\\Program Files (x86)\\NetSarang\\Xshell 8\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.8.9-hotspot\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Users\\cijan\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\cijan\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\cijan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cijan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\cijan\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\cijan\\.dotnet\\tools"
+        - "C:\\Users\\cijan\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/OpenGL_Study/cmake_project_example/build/install"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/"
+      - "C:/Program Files (x86)/HTML Help Workshop/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.8.9-hotspot/bin/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NetSarang/Xftp 8/"
+      - "C:/Program Files (x86)/NetSarang/Xshell 8/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Users/cijan/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/cijan/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/cijan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/cijan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/cijan/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/cijan/.dotnet/tools/"
+      - "C:/Users/cijan/AppData/Roaming/npm/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/lld-link"
+      - "C:/Program Files (x86)/HTML Help Workshop/lld-link.com"
+      - "C:/Program Files (x86)/HTML Help Workshop/lld-link.exe"
+      - "C:/Program Files (x86)/HTML Help Workshop/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.8.9-hotspot/bin/lld-link.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.8.9-hotspot/bin/lld-link.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.8.9-hotspot/bin/lld-link"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/lld-link.com"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/lld-link.exe"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/lld-link"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/msys64/mingw64/bin/lld-link.com"
+      - "C:/msys64/mingw64/bin/lld-link.exe"
+      - "C:/msys64/mingw64/bin/lld-link"
+      - "C:/Program Files/Bandizip/lld-link.com"
+      - "C:/Program Files/Bandizip/lld-link.exe"
+      - "C:/Program Files/Bandizip/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link"
+      - "C:/Program Files (x86)/NetSarang/Xftp 8/lld-link.com"
+      - "C:/Program Files (x86)/NetSarang/Xftp 8/lld-link.exe"
+      - "C:/Program Files (x86)/NetSarang/Xftp 8/lld-link"
+      - "C:/Program Files (x86)/NetSarang/Xshell 8/lld-link.com"
+      - "C:/Program Files (x86)/NetSarang/Xshell 8/lld-link.exe"
+      - "C:/Program Files (x86)/NetSarang/Xshell 8/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/Git LFS/lld-link.com"
+      - "C:/Program Files/Git LFS/lld-link.exe"
+      - "C:/Program Files/Git LFS/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files (x86)/dotnet/lld-link.com"
+      - "C:/Program Files (x86)/dotnet/lld-link.exe"
+      - "C:/Program Files (x86)/dotnet/lld-link"
+      - "C:/Users/cijan/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/cijan/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/cijan/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/cijan/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/cijan/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/cijan/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Users/cijan/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/cijan/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/cijan/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/cijan/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/cijan/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/cijan/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/cijan/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/cijan/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/cijan/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/Users/cijan/.dotnet/tools/lld-link.com"
+      - "C:/Users/cijan/.dotnet/tools/lld-link.exe"
+      - "C:/Users/cijan/.dotnet/tools/lld-link"
+      - "C:/Users/cijan/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/cijan/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/cijan/AppData/Roaming/npm/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.8.9-hotspot\\bin"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NetSarang\\Xftp 8\\"
+        - "C:\\Program Files (x86)\\NetSarang\\Xshell 8\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.8.9-hotspot\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Users\\cijan\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\cijan\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\cijan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cijan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\cijan\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\cijan\\.dotnet\\tools"
+        - "C:\\Users\\cijan\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/OpenGL_Study/cmake_project_example/build/install"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/"
+      - "C:/Program Files (x86)/HTML Help Workshop/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.8.9-hotspot/bin/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NetSarang/Xftp 8/"
+      - "C:/Program Files (x86)/NetSarang/Xshell 8/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Users/cijan/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/cijan/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/cijan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/cijan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/cijan/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/cijan/.dotnet/tools/"
+      - "C:/Users/cijan/AppData/Roaming/npm/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.8.9-hotspot\\bin"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NetSarang\\Xftp 8\\"
+        - "C:\\Program Files (x86)\\NetSarang\\Xshell 8\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.8.9-hotspot\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Users\\cijan\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\cijan\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\cijan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cijan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\cijan\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\cijan\\.dotnet\\tools"
+        - "C:\\Users\\cijan\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/OpenGL_Study/cmake_project_example/build/install"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/"
+      - "C:/Program Files (x86)/HTML Help Workshop/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.8.9-hotspot/bin/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NetSarang/Xftp 8/"
+      - "C:/Program Files (x86)/NetSarang/Xshell 8/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Users/cijan/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/cijan/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/cijan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/cijan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/cijan/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/cijan/.dotnet/tools/"
+      - "C:/Users/cijan/AppData/Roaming/npm/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/mt.com"
+    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/mt.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.8.9-hotspot\\bin"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NetSarang\\Xftp 8\\"
+        - "C:\\Program Files (x86)\\NetSarang\\Xshell 8\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.8.9-hotspot\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Users\\cijan\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\cijan\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\cijan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cijan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\cijan\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\cijan\\.dotnet\\tools"
+        - "C:\\Users\\cijan\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/OpenGL_Study/cmake_project_example/build/install"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/"
+      - "C:/Program Files (x86)/HTML Help Workshop/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.8.9-hotspot/bin/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NetSarang/Xftp 8/"
+      - "C:/Program Files (x86)/NetSarang/Xshell 8/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Users/cijan/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/cijan/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/cijan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/cijan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/cijan/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/cijan/.dotnet/tools/"
+      - "C:/Users/cijan/AppData/Roaming/npm/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.8.9-hotspot\\bin"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NetSarang\\Xftp 8\\"
+        - "C:\\Program Files (x86)\\NetSarang\\Xshell 8\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.8.9-hotspot\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Users\\cijan\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\cijan\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\cijan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cijan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\cijan\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\cijan\\.dotnet\\tools"
+        - "C:\\Users\\cijan\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/OpenGL_Study/cmake_project_example/build/install"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:583 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:556 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/"
+      - "C:/Program Files (x86)/HTML Help Workshop/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.8.9-hotspot/bin/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NetSarang/Xftp 8/"
+      - "C:/Program Files (x86)/NetSarang/Xshell 8/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Users/cijan/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/cijan/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/cijan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/cijan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/cijan/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/cijan/.dotnet/tools/"
+      - "C:/Users/cijan/AppData/Roaming/npm/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/OpenGL_Study/cmake_project_example/build/install/bin/"
+      - "C:/OpenGL_Study/cmake_project_example/build/install/sbin/"
+      - "C:/OpenGL_Study/cmake_project_example/build/install/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/rc.com"
+    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/rc.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.8.9-hotspot\\bin"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NetSarang\\Xftp 8\\"
+        - "C:\\Program Files (x86)\\NetSarang\\Xshell 8\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.8.9-hotspot\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Users\\cijan\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\cijan\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\cijan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cijan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\cijan\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\cijan\\.dotnet\\tools"
+        - "C:\\Users\\cijan\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/OpenGL_Study/cmake_project_example/build/install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/OpenGL_Study/cmake_project_example/build/install"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/OpenGL_Study/cmake_project_example/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/CMakeScratch/TryCompile-kenc54"
+      binary: "C:/OpenGL_Study/cmake_project_example/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/CMakeScratch/TryCompile-kenc54"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/OpenGL_Study/cmake_project_example/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/CMakeScratch/TryCompile-kenc54'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1f248.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        msbuild 버전 17.13.19+0d9f5a35a(.NET Framework용)
+        빌드 시작: 2026-04-19 오후 10:55:34
+        
+        1 노드의 "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-kenc54\\cmTC_1f248.vcxproj" 프로젝트(기본 대상)입니다.
+        PrepareForBuild:
+          구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
+          "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-kenc54\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_1f248.dir\\Debug\\cmTC_1f248.tlog\\" 디렉터리를 만들고 있습니다.
+        InitializeBuildStatus:
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_1f248.dir\\Debug\\cmTC_1f248.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_1f248.dir\\Debug\\cmTC_1f248.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_1f248.dir\\Debug\\\\" /Fd"cmTC_1f248.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ 최적화 컴파일러 버전 19.38.33145(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_1f248.dir\\Debug\\\\" /Fd"cmTC_1f248.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-kenc54\\Debug\\cmTC_1f248.exe" /INCREMENTAL /ILK:"cmTC_1f248.dir\\Debug\\cmTC_1f248.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/OpenGL_Study/cmake_project_example/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/CMakeScratch/TryCompile-kenc54/Debug/cmTC_1f248.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/OpenGL_Study/cmake_project_example/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/CMakeScratch/TryCompile-kenc54/Debug/cmTC_1f248.lib" /MACHINE:X64  /machine:x64 cmTC_1f248.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_1f248.vcxproj -> C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-kenc54\\Debug\\cmTC_1f248.exe
+        FinalizeBuildStatus:
+          "cmTC_1f248.dir\\Debug\\cmTC_1f248.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_1f248.dir\\Debug\\cmTC_1f248.tlog\\cmTC_1f248.lastbuildstate"에 연결(touching)하고 있습니다.
+        "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-kenc54\\cmTC_1f248.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+        
+        빌드했습니다.
+            경고 0개
+            오류 0개
+        
+        경과 시간: 00:00:00.71
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.38.33145.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:162 (check_cxx_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "CMakeLists.txt:160 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/OpenGL_Study/cmake_project_example/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/CMakeScratch/TryCompile-rhn2of"
+      binary: "C:/OpenGL_Study/cmake_project_example/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/CMakeScratch/TryCompile-rhn2of"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/OpenGL_Study/cmake_project_example/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/CMakeScratch/TryCompile-rhn2of'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f73aa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        msbuild 버전 17.13.19+0d9f5a35a(.NET Framework용)
+        빌드 시작: 2026-04-19 오후 10:55:35
+        
+        1 노드의 "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-rhn2of\\cmTC_f73aa.vcxproj" 프로젝트(기본 대상)입니다.
+        PrepareForBuild:
+          구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
+          "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-rhn2of\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_f73aa.dir\\Debug\\cmTC_f73aa.tlog\\" 디렉터리를 만들고 있습니다.
+        InitializeBuildStatus:
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_f73aa.dir\\Debug\\cmTC_f73aa.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_f73aa.dir\\Debug\\cmTC_f73aa.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_f73aa.dir\\Debug\\\\" /Fd"cmTC_f73aa.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-rhn2of\\src.cxx"
+          Microsoft (R) C/C++ 최적화 컴파일러 버전 19.38.33145(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_f73aa.dir\\Debug\\\\" /Fd"cmTC_f73aa.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-rhn2of\\src.cxx"
+          src.cxx
+        C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-rhn2of\\src.cxx(1,10): error C1083: 포함 파일을 열 수 없습니다. 'pthread.h': No such file or directory [C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-rhn2of\\cmTC_f73aa.vcxproj]
+        "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-rhn2of\\cmTC_f73aa.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+        
+        빌드하지 못했습니다.
+        
+        "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-rhn2of\\cmTC_f73aa.vcxproj"(기본 대상)(1)->
+        (ClCompile 대상) -> 
+          C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-rhn2of\\src.cxx(1,10): error C1083: 포함 파일을 열 수 없습니다. 'pthread.h': No such file or directory [C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-rhn2of\\cmTC_f73aa.vcxproj]
+        
+            경고 0개
+            오류 1개
+        
+        경과 시간: 00:00:00.40
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "CMakeLists.txt:160 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/OpenGL_Study/cmake_project_example/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/CMakeScratch/TryCompile-o0uea1"
+      binary: "C:/OpenGL_Study/cmake_project_example/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/CMakeScratch/TryCompile-o0uea1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/OpenGL_Study/cmake_project_example/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/CMakeScratch/TryCompile-o0uea1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_29f19.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        msbuild 버전 17.13.19+0d9f5a35a(.NET Framework용)
+        빌드 시작: 2026-04-19 오후 10:55:36
+        
+        1 노드의 "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-o0uea1\\cmTC_29f19.vcxproj" 프로젝트(기본 대상)입니다.
+        PrepareForBuild:
+          구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
+          "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-o0uea1\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_29f19.dir\\Debug\\cmTC_29f19.tlog\\" 디렉터리를 만들고 있습니다.
+        InitializeBuildStatus:
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_29f19.dir\\Debug\\cmTC_29f19.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_29f19.dir\\Debug\\cmTC_29f19.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_29f19.dir\\Debug\\\\" /Fd"cmTC_29f19.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-o0uea1\\CheckFunctionExists.cxx"
+          Microsoft (R) C/C++ 최적화 컴파일러 버전 19.38.33145(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_29f19.dir\\Debug\\\\" /Fd"cmTC_29f19.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-o0uea1\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-o0uea1\\Debug\\cmTC_29f19.exe" /INCREMENTAL /ILK:"cmTC_29f19.dir\\Debug\\cmTC_29f19.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/OpenGL_Study/cmake_project_example/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/CMakeScratch/TryCompile-o0uea1/Debug/cmTC_29f19.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/OpenGL_Study/cmake_project_example/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/CMakeScratch/TryCompile-o0uea1/Debug/cmTC_29f19.lib" /MACHINE:X64  /machine:x64 cmTC_29f19.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 'pthreads.lib' 파일을 열 수 없습니다. [C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-o0uea1\\cmTC_29f19.vcxproj]
+        "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-o0uea1\\cmTC_29f19.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+        
+        빌드하지 못했습니다.
+        
+        "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-o0uea1\\cmTC_29f19.vcxproj"(기본 대상)(1)->
+        (Link 대상) -> 
+          LINK : fatal error LNK1104: 'pthreads.lib' 파일을 열 수 없습니다. [C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-o0uea1\\cmTC_29f19.vcxproj]
+        
+            경고 0개
+            오류 1개
+        
+        경과 시간: 00:00:00.57
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "CMakeLists.txt:160 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/OpenGL_Study/cmake_project_example/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/CMakeScratch/TryCompile-chbxhw"
+      binary: "C:/OpenGL_Study/cmake_project_example/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/CMakeScratch/TryCompile-chbxhw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/OpenGL_Study/cmake_project_example/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/CMakeScratch/TryCompile-chbxhw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_443b1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        msbuild 버전 17.13.19+0d9f5a35a(.NET Framework용)
+        빌드 시작: 2026-04-19 오후 10:55:37
+        
+        1 노드의 "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-chbxhw\\cmTC_443b1.vcxproj" 프로젝트(기본 대상)입니다.
+        PrepareForBuild:
+          구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
+          "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-chbxhw\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_443b1.dir\\Debug\\cmTC_443b1.tlog\\" 디렉터리를 만들고 있습니다.
+        InitializeBuildStatus:
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_443b1.dir\\Debug\\cmTC_443b1.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_443b1.dir\\Debug\\cmTC_443b1.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_443b1.dir\\Debug\\\\" /Fd"cmTC_443b1.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-chbxhw\\CheckFunctionExists.cxx"
+          Microsoft (R) C/C++ 최적화 컴파일러 버전 19.38.33145(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_443b1.dir\\Debug\\\\" /Fd"cmTC_443b1.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-chbxhw\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-chbxhw\\Debug\\cmTC_443b1.exe" /INCREMENTAL /ILK:"cmTC_443b1.dir\\Debug\\cmTC_443b1.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/OpenGL_Study/cmake_project_example/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/CMakeScratch/TryCompile-chbxhw/Debug/cmTC_443b1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/OpenGL_Study/cmake_project_example/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/CMakeScratch/TryCompile-chbxhw/Debug/cmTC_443b1.lib" /MACHINE:X64  /machine:x64 cmTC_443b1.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 'pthread.lib' 파일을 열 수 없습니다. [C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-chbxhw\\cmTC_443b1.vcxproj]
+        "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-chbxhw\\cmTC_443b1.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+        
+        빌드하지 못했습니다.
+        
+        "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-chbxhw\\cmTC_443b1.vcxproj"(기본 대상)(1)->
+        (Link 대상) -> 
+          LINK : fatal error LNK1104: 'pthread.lib' 파일을 열 수 없습니다. [C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-chbxhw\\cmTC_443b1.vcxproj]
+        
+            경고 0개
+            오류 1개
+        
+        경과 시간: 00:00:00.53
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckSymbolExists.cmake:193 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckSymbolExists.cmake:102 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:257 (check_symbol_exists)"
+    checks:
+      - "Looking for _fwrite_nolock"
+    directories:
+      source: "C:/OpenGL_Study/cmake_project_example/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/CMakeScratch/TryCompile-9zqzai"
+      binary: "C:/OpenGL_Study/cmake_project_example/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/CMakeScratch/TryCompile-9zqzai"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_FWRITE_UNLOCKED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/OpenGL_Study/cmake_project_example/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/CMakeScratch/TryCompile-9zqzai'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c4d69.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        msbuild 버전 17.13.19+0d9f5a35a(.NET Framework용)
+        빌드 시작: 2026-04-19 오후 10:55:38
+        
+        1 노드의 "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-9zqzai\\cmTC_c4d69.vcxproj" 프로젝트(기본 대상)입니다.
+        PrepareForBuild:
+          구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
+          "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-9zqzai\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_c4d69.dir\\Debug\\cmTC_c4d69.tlog\\" 디렉터리를 만들고 있습니다.
+        InitializeBuildStatus:
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_c4d69.dir\\Debug\\cmTC_c4d69.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_c4d69.dir\\Debug\\cmTC_c4d69.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_c4d69.dir\\Debug\\\\" /Fd"cmTC_c4d69.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-9zqzai\\CheckSymbolExists.cxx"
+          Microsoft (R) C/C++ 최적화 컴파일러 버전 19.38.33145(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_c4d69.dir\\Debug\\\\" /Fd"cmTC_c4d69.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-9zqzai\\CheckSymbolExists.cxx"
+          CheckSymbolExists.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-9zqzai\\Debug\\cmTC_c4d69.exe" /INCREMENTAL /ILK:"cmTC_c4d69.dir\\Debug\\cmTC_c4d69.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/OpenGL_Study/cmake_project_example/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/CMakeScratch/TryCompile-9zqzai/Debug/cmTC_c4d69.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/OpenGL_Study/cmake_project_example/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/CMakeScratch/TryCompile-9zqzai/Debug/cmTC_c4d69.lib" /MACHINE:X64  /machine:x64 cmTC_c4d69.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_c4d69.vcxproj -> C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-9zqzai\\Debug\\cmTC_c4d69.exe
+        FinalizeBuildStatus:
+          "cmTC_c4d69.dir\\Debug\\cmTC_c4d69.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_c4d69.dir\\Debug\\cmTC_c4d69.tlog\\cmTC_c4d69.lastbuildstate"에 연결(touching)하고 있습니다.
+        "C:\\OpenGL_Study\\cmake_project_example\\build\\dep-spdlog-prefix\\src\\dep-spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-9zqzai\\cmTC_c4d69.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+        
+        빌드했습니다.
+            경고 0개
+            오류 0개
+        
+        경과 시간: 00:00:00.72
+        
+      exitCode: 0
+...

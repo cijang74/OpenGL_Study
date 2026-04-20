@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OpenGL_Study\first_opengl_example\build\dep-spdlog-prefix\src\dep-spdlog\example\example.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\OpenGL_Study\first_opengl_example\build\dep-spdlog-prefix\src\dep-spdlog\example\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1C17D92B-A8EE-3351-BF04-DAEF9EA0C1CC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+# Target labels
+ dep_glfw
+# Source files and their labels
+C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/dep_glfw
+C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/a031fbb7c561737900f546f548bd3bfc/dep_glfw.rule
+C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/337392aa4b5ee5b537ae642c25d0b31f/dep_glfw-complete.rule
+C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/14dc0b0d745ee93b55267fff77d22c18/dep_glfw-build.rule
+C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/14dc0b0d745ee93b55267fff77d22c18/dep_glfw-configure.rule
+C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/14dc0b0d745ee93b55267fff77d22c18/dep_glfw-download.rule
+C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/14dc0b0d745ee93b55267fff77d22c18/dep_glfw-install.rule
+C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/14dc0b0d745ee93b55267fff77d22c18/dep_glfw-mkdir.rule
+C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/14dc0b0d745ee93b55267fff77d22c18/dep_glfw-patch.rule
+C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/14dc0b0d745ee93b55267fff77d22c18/dep_glfw-test.rule
+C:/OpenGL_Study/cmake_project_example/build/CMakeFiles/14dc0b0d745ee93b55267fff77d22c18/dep_glfw-update.rule

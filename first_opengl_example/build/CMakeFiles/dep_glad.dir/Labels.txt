@@ -1,0 +1,14 @@
+# Target labels
+ dep_glad
+# Source files and their labels
+C:/OpenGL_Study/first_opengl_example/build/CMakeFiles/dep_glad
+C:/OpenGL_Study/first_opengl_example/build/CMakeFiles/2a7998722c659c879f90d7be6c9d2125/dep_glad.rule
+C:/OpenGL_Study/first_opengl_example/build/CMakeFiles/ad5cd2b0bab8984c3a84d011fd8bd2c0/dep_glad-complete.rule
+C:/OpenGL_Study/first_opengl_example/build/CMakeFiles/47d5dfa6860cb7fb4603297e39aaeddd/dep_glad-build.rule
+C:/OpenGL_Study/first_opengl_example/build/CMakeFiles/47d5dfa6860cb7fb4603297e39aaeddd/dep_glad-configure.rule
+C:/OpenGL_Study/first_opengl_example/build/CMakeFiles/47d5dfa6860cb7fb4603297e39aaeddd/dep_glad-download.rule
+C:/OpenGL_Study/first_opengl_example/build/CMakeFiles/47d5dfa6860cb7fb4603297e39aaeddd/dep_glad-install.rule
+C:/OpenGL_Study/first_opengl_example/build/CMakeFiles/47d5dfa6860cb7fb4603297e39aaeddd/dep_glad-mkdir.rule
+C:/OpenGL_Study/first_opengl_example/build/CMakeFiles/47d5dfa6860cb7fb4603297e39aaeddd/dep_glad-patch.rule
+C:/OpenGL_Study/first_opengl_example/build/CMakeFiles/47d5dfa6860cb7fb4603297e39aaeddd/dep_glad-test.rule
+C:/OpenGL_Study/first_opengl_example/build/CMakeFiles/47d5dfa6860cb7fb4603297e39aaeddd/dep_glad-update.rule
