@@ -5,5 +5,6 @@ layout (location = 0) in vec3 aPos;
 void main() 
 {
     // 가장 단순한 vertex shader 작성: vertex shader는 정점의 위치를 설정하는 쉐이더
-    gl_Position = vec4(0.5, 0.5, 0.0, 1.0); // x, y, z, 동차 좌표계 w(원근감 및 이동 계산용 좌표)
+    // gl_Position = vec4(0.5, 0.5, 0.0, 1.0); // x, y, z, 동차 좌표계 w(원근감 및 이동 계산용 좌표)
+    gl_Position = vec4(aPos, 1.0);
 }

@@ -16,6 +16,12 @@
     <ClCompile Include="C:\OpenGL_Study\point_example\src\context.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\OpenGL_Study\point_example\src\buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OpenGL_Study\point_example\src\vertex_layout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\OpenGL_Study\point_example\src\common.h">
@@ -28,6 +34,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\OpenGL_Study\point_example\src\context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OpenGL_Study\point_example\src\buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OpenGL_Study\point_example\src\vertex_layout.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

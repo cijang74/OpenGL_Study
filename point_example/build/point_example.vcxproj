@@ -381,6 +381,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\OpenGL_Study\point_example\src\program.h" />
     <ClCompile Include="C:\OpenGL_Study\point_example\src\context.cpp" />
     <ClInclude Include="C:\OpenGL_Study\point_example\src\context.h" />
+    <ClCompile Include="C:\OpenGL_Study\point_example\src\buffer.cpp" />
+    <ClInclude Include="C:\OpenGL_Study\point_example\src\buffer.h" />
+    <ClCompile Include="C:\OpenGL_Study\point_example\src\vertex_layout.cpp" />
+    <ClInclude Include="C:\OpenGL_Study\point_example\src\vertex_layout.h" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

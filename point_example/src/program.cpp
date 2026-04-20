@@ -42,3 +42,9 @@ Program::~Program()
         glDeleteProgram(m_program);
     }
 }
+
+// vertex array가 바인딩된 프로그램을 가져와 vertex array를 통해 그림 그리기
+void Program::Use() const 
+{
+    glUseProgram(m_program);
+}

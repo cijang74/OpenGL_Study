@@ -22,7 +22,7 @@
 			{
 				"command" : 2,
 				"file" : 2,
-				"line" : 19,
+				"line" : 21,
 				"parent" : 0
 			},
 			{
@@ -32,7 +32,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 25,
+				"line" : 41,
 				"parent" : 2
 			},
 			{
@@ -56,10 +56,10 @@
 	],
 	"folder" : 
 	{
-		"name" : "ExternalProjectTargets/dep_glfw"
+		"name" : "ExternalProjectTargets/dep_glad"
 	},
-	"id" : "dep_glfw::@6890427a1f51a3e7e1df",
-	"name" : "dep_glfw",
+	"id" : "dep_glad::@6890427a1f51a3e7e1df",
+	"name" : "dep_glad",
 	"paths" : 
 	{
 		"build" : ".",
@@ -96,67 +96,67 @@
 		{
 			"backtrace" : 4,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/dep_glfw",
+			"path" : "build/CMakeFiles/dep_glad",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/e02507509afb58f05ec1d81ee3709757/dep_glfw.rule",
+			"path" : "build/CMakeFiles/e02507509afb58f05ec1d81ee3709757/dep_glad.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/a84a12de3991cff583073421ccc973ba/dep_glfw-complete.rule",
+			"path" : "build/CMakeFiles/a84a12de3991cff583073421ccc973ba/dep_glad-complete.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/a744ecb3a08b624cc03d52a567192c7a/dep_glfw-build.rule",
+			"path" : "build/CMakeFiles/2b35aff788089b5de627c81ceaf41283/dep_glad-build.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/a744ecb3a08b624cc03d52a567192c7a/dep_glfw-configure.rule",
+			"path" : "build/CMakeFiles/2b35aff788089b5de627c81ceaf41283/dep_glad-configure.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/a744ecb3a08b624cc03d52a567192c7a/dep_glfw-download.rule",
+			"path" : "build/CMakeFiles/2b35aff788089b5de627c81ceaf41283/dep_glad-download.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/a744ecb3a08b624cc03d52a567192c7a/dep_glfw-install.rule",
+			"path" : "build/CMakeFiles/2b35aff788089b5de627c81ceaf41283/dep_glad-install.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/a744ecb3a08b624cc03d52a567192c7a/dep_glfw-mkdir.rule",
+			"path" : "build/CMakeFiles/2b35aff788089b5de627c81ceaf41283/dep_glad-mkdir.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/a744ecb3a08b624cc03d52a567192c7a/dep_glfw-patch.rule",
+			"path" : "build/CMakeFiles/2b35aff788089b5de627c81ceaf41283/dep_glad-patch.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/a744ecb3a08b624cc03d52a567192c7a/dep_glfw-test.rule",
+			"path" : "build/CMakeFiles/2b35aff788089b5de627c81ceaf41283/dep_glad-test.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/a744ecb3a08b624cc03d52a567192c7a/dep_glfw-update.rule",
+			"path" : "build/CMakeFiles/2b35aff788089b5de627c81ceaf41283/dep_glad-update.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

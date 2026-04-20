@@ -12,7 +12,8 @@ class Program
         static ProgramUPtr Create(const std::vector<ShaderPtr>& shaders); // Shader 인스턴스는 다른 Program 인스턴스를 만드는 데 재사용할 수도 있음 -> ShaderPtr
 
         ~Program();
-        uint32_t Get() const { return m_program; }    
+        uint32_t Get() const { return m_program; }  
+        void Use() const;  
 
     private:
         Program() {}
