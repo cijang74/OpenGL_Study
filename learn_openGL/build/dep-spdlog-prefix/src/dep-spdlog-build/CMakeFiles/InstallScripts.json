@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/OpenGL_Study/learn_openGL/build/dep-spdlog-prefix/src/dep-spdlog-build/cmake_install.cmake",
+		"C:/OpenGL_Study/learn_openGL/build/dep-spdlog-prefix/src/dep-spdlog-build/example/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

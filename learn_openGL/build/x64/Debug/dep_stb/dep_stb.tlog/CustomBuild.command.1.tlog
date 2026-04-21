@@ -1,0 +1,156 @@
+^C:\OPENGL_STUDY\LEARN_OPENGL\BUILD\CMAKEFILES\4687AE7AB89BEFDC5FFE83C7FD75CDBB\DEP_STB-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/OpenGL_Study/learn_openGL/build/dep_stb-prefix/tmp/dep_stb-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/OpenGL_Study/learn_openGL/build/dep_stb-prefix/src/dep_stb-stamp/Debug/dep_stb-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL_STUDY\LEARN_OPENGL\BUILD\CMAKEFILES\4687AE7AB89BEFDC5FFE83C7FD75CDBB\DEP_STB-DOWNLOAD.RULE
+setlocal
+cd C:\OpenGL_Study\learn_openGL\build\dep_stb-prefix\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/OpenGL_Study/learn_openGL/build/dep_stb-prefix/tmp/dep_stb-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/OpenGL_Study/learn_openGL/build/dep_stb-prefix/src/dep_stb-stamp/Debug/dep_stb-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL_STUDY\LEARN_OPENGL\BUILD\CMAKEFILES\4687AE7AB89BEFDC5FFE83C7FD75CDBB\DEP_STB-UPDATE.RULE
+setlocal
+cd C:\OpenGL_Study\learn_openGL\build\dep_stb-prefix\src\dep_stb
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/OpenGL_Study/learn_openGL/build/dep_stb-prefix/src/dep_stb-stamp/Debug/dep_stb-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL_STUDY\LEARN_OPENGL\BUILD\CMAKEFILES\4687AE7AB89BEFDC5FFE83C7FD75CDBB\DEP_STB-PATCH.RULE
+setlocal
+cd C:\OpenGL_Study\learn_openGL\build\dep_stb-prefix\src\dep_stb
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/OpenGL_Study/learn_openGL/build/dep_stb-prefix/src/dep_stb-stamp/Debug/dep_stb-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL_STUDY\LEARN_OPENGL\BUILD\CMAKEFILES\4687AE7AB89BEFDC5FFE83C7FD75CDBB\DEP_STB-CONFIGURE.RULE
+setlocal
+cd C:\OpenGL_Study\learn_openGL\build\dep_stb-prefix\src\dep_stb-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/OpenGL_Study/learn_openGL/build/dep_stb-prefix/src/dep_stb-stamp/Debug/dep_stb-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL_STUDY\LEARN_OPENGL\BUILD\CMAKEFILES\4687AE7AB89BEFDC5FFE83C7FD75CDBB\DEP_STB-BUILD.RULE
+setlocal
+cd C:\OpenGL_Study\learn_openGL\build\dep_stb-prefix\src\dep_stb-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/OpenGL_Study/learn_openGL/build/dep_stb-prefix/src/dep_stb-stamp/Debug/dep_stb-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL_STUDY\LEARN_OPENGL\BUILD\CMAKEFILES\4687AE7AB89BEFDC5FFE83C7FD75CDBB\DEP_STB-INSTALL.RULE
+setlocal
+cd C:\OpenGL_Study\learn_openGL\build\dep_stb-prefix\src\dep_stb-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/OpenGL_Study/learn_openGL/build/dep_stb-prefix/src/dep_stb/stb_image.h C:/OpenGL_Study/learn_openGL/build/install/include/stb/stb_image.h
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/OpenGL_Study/learn_openGL/build/dep_stb-prefix/src/dep_stb-stamp/Debug/dep_stb-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL_STUDY\LEARN_OPENGL\BUILD\CMAKEFILES\4687AE7AB89BEFDC5FFE83C7FD75CDBB\DEP_STB-TEST.RULE
+setlocal
+cd C:\OpenGL_Study\learn_openGL\build\dep_stb-prefix\src\dep_stb-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/OpenGL_Study/learn_openGL/build/dep_stb-prefix/src/dep_stb-stamp/Debug/dep_stb-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL_STUDY\LEARN_OPENGL\BUILD\CMAKEFILES\424BEE0669F0A4E4F6EDDC4EDC2430C9\DEP_STB-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/OpenGL_Study/learn_openGL/build/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/OpenGL_Study/learn_openGL/build/CMakeFiles/Debug/dep_stb-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/OpenGL_Study/learn_openGL/build/dep_stb-prefix/src/dep_stb-stamp/Debug/dep_stb-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL_STUDY\LEARN_OPENGL\BUILD\CMAKEFILES\C28BFF034A4421428D656608910B2776\DEP_STB.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL_STUDY\LEARN_OPENGL\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/OpenGL_Study/learn_openGL -BC:/OpenGL_Study/learn_openGL/build --check-stamp-file C:/OpenGL_Study/learn_openGL/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

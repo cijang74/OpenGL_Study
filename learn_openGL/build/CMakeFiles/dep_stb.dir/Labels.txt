@@ -1,0 +1,14 @@
+# Target labels
+ dep_stb
+# Source files and their labels
+C:/OpenGL_Study/learn_openGL/build/CMakeFiles/dep_stb
+C:/OpenGL_Study/learn_openGL/build/CMakeFiles/c28bff034a4421428d656608910b2776/dep_stb.rule
+C:/OpenGL_Study/learn_openGL/build/CMakeFiles/424bee0669f0a4e4f6eddc4edc2430c9/dep_stb-complete.rule
+C:/OpenGL_Study/learn_openGL/build/CMakeFiles/4687ae7ab89befdc5ffe83c7fd75cdbb/dep_stb-build.rule
+C:/OpenGL_Study/learn_openGL/build/CMakeFiles/4687ae7ab89befdc5ffe83c7fd75cdbb/dep_stb-configure.rule
+C:/OpenGL_Study/learn_openGL/build/CMakeFiles/4687ae7ab89befdc5ffe83c7fd75cdbb/dep_stb-download.rule
+C:/OpenGL_Study/learn_openGL/build/CMakeFiles/4687ae7ab89befdc5ffe83c7fd75cdbb/dep_stb-install.rule
+C:/OpenGL_Study/learn_openGL/build/CMakeFiles/4687ae7ab89befdc5ffe83c7fd75cdbb/dep_stb-mkdir.rule
+C:/OpenGL_Study/learn_openGL/build/CMakeFiles/4687ae7ab89befdc5ffe83c7fd75cdbb/dep_stb-patch.rule
+C:/OpenGL_Study/learn_openGL/build/CMakeFiles/4687ae7ab89befdc5ffe83c7fd75cdbb/dep_stb-test.rule
+C:/OpenGL_Study/learn_openGL/build/CMakeFiles/4687ae7ab89befdc5ffe83c7fd75cdbb/dep_stb-update.rule

@@ -1,0 +1,14 @@
+================================================================================
+Linker Errors
+Generated: 2026-04-21T16:19:15.141Z
+Total Errors: 3
+================================================================================
+
+[LNK2019] (MSVC)
+stbi_load"private: bool __cdecl Image::LoadWithStb(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?LoadWithStb@Image@@AEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호 [C:\OpenGL_Study\learn_openGL\build\learn_openGL.vcxproj]
+
+[LNK2019] (MSVC)
+stbi_image_free"public: __cdecl Image::~Image(void)" (??1Image@@QEAA@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호 [C:\OpenGL_Study\learn_openGL\build\learn_openGL.vcxproj]
+
+[LNK1120] (MSVC)
+2개의 확인할 수 없는 외부 참조입니다. [C:\OpenGL_Study\learn_openGL\build\learn_openGL.vcxproj]

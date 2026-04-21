@@ -15,12 +15,12 @@ ContextUPtr Context::Create()
 bool Context::Init() 
 {
     // 사각형 정점 데이터 준비 (VBO)
+    // 각각 x, y, z, r, g, b
     float vertices[] = {
-        // 4개의 정점만 준비
-        0.5f, 0.5f, 0.0f, // top right <- 0번 점
-        0.5f, -0.5f, 0.0f, // bottom right <- 1번 점
-        -0.5f, -0.5f, 0.0f, // bottom left <- 2번 점
-        -0.5f, 0.5f, 0.0f, // top left < - 3번 점
+    0.5f, 0.5f, 0.0f, 1.0f, 0.0f, 0.0f, // top right, red
+    0.5f, -0.5f, 0.0f, 0.0f, 1.0f, 0.0f, // bottom right, green
+    -0.5f, -0.5f, 0.0f, 0.0f, 0.0f, 1.0f, // bottom left, blue
+    -0.5f, 0.5f, 0.0f, 1.0f, 1.0f, 0.0f, // top left, yellow
     };
 
     // 정점의 index로 구성된 array 준비
@@ -34,18 +34,22 @@ bool Context::Init()
 
     // VBO 만들기
     // GL_ARRAY_BUFFER: 사용할 buffer object는 vertex data를 저장할 용도임을 알림 (위치, 색상값으로 사용할 버퍼임을 알림)
-    m_vertexBuffer = Buffer::CreateWithData(GL_ARRAY_BUFFER, GL_STATIC_DRAW, vertices, sizeof(float) * 12);
+    m_vertexBuffer = Buffer::CreateWithData(GL_ARRAY_BUFFER, GL_STATIC_DRAW, vertices, sizeof(float) * 24);
     
     // // VAO와 VBO 연결
-    m_vertexLayout->SetAttrib(0, 3, GL_FLOAT, GL_FALSE, sizeof(float) * 3, 0);
+    m_vertexLayout->SetAttrib(0, 3, GL_FLOAT, GL_FALSE, sizeof(float) * 6, 0);
+    m_vertexLayout->SetAttrib(1, 3, GL_FLOAT, GL_FALSE, sizeof(float) * 6, sizeof(float) * 3); // 추가. Color가 시작되는 부분은 sizeof(float) * 3이후부터 이므로 offset 지정
 
     // glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, m_indexBuffer); // 지금부터 사용할 buffer object를 지정 -> m_vertexBuffer는 GL_ELEMENT_ARRAY_BUFFER 용도로 쓸거야.
     m_indexBuffer = Buffer::CreateWithData(GL_ELEMENT_ARRAY_BUFFER, GL_STATIC_DRAW, indices, sizeof(uint32_t) * 6); // 벡터가 아닌, 정수값들만 읽어오면 되기에 VAO 작성 필요 X
 
     // shader.h, shader.cpp에 작성된 함수들은 glad 함수를 사용하기 때문에 초기화 이후 사용 가능
     // 쉐이더 인스턴스 생성
-    ShaderPtr vertShader = Shader::CreateFromFile("./shader/simple.vs", GL_VERTEX_SHADER);
-    ShaderPtr fragShader = Shader::CreateFromFile("./shader/simple.fs", GL_FRAGMENT_SHADER);
+    // ShaderPtr vertShader = Shader::CreateFromFile("./shader/simple.vs", GL_VERTEX_SHADER);
+    // ShaderPtr fragShader = Shader::CreateFromFile("./shader/simple.fs", GL_FRAGMENT_SHADER);
+
+    ShaderPtr vertShader = Shader::CreateFromFile("./shader/per_vertex_color.vs", GL_VERTEX_SHADER);
+    ShaderPtr fragShader = Shader::CreateFromFile("./shader/per_vertex_color.fs", GL_FRAGMENT_SHADER);
 
     if (!vertShader || !fragShader)
     {
@@ -64,22 +68,34 @@ bool Context::Init()
     }
     SPDLOG_INFO("program id: {}", m_program->Get());
 
+    // uniform 입력 과정
+    // auto loc = glGetUniformLocation(m_program->Get(), "color"); // 프로그램 내 color 변수 핸들(int)을 얻는다.
+    // m_program->Use(); // 현재 사용할 프로그램으로 등록 후 (해당 프로그램을 가지고 그림을 그리겠다 선언)
+    // glUniform4f(loc, 1.0f, 1.0f, 0.0f, 1.0f); // 위에서 얻은 변수 핸들을 통해 값을 전달한다.
+
     // 화면을 지우려고 할 때 어떤 색으로 지울지 세팅
     glClearColor(0.1f, 0.2f, 0.3f, 0.0f);
-
-
 
     return true;
 }
 
+// 해당 메서드는 루프문에서 돌아감
 void Context::Render() 
 {
     glClear(GL_COLOR_BUFFER_BIT); // glClearColor로 세팅한 색으로 색상 버퍼 초기화
 
+    // static float time = 0.0f;
+    // float t = sinf(time) * 0.5f + 0.5f;
+    // auto loc = glGetUniformLocation(m_program->Get(), "color");
+
     // vertex array가 바인딩된 프로그램을 가져와 vertex array를 통해 그림 그리기
-    // glUseProgram(m_program->Get());
     m_program->Use();
+
+    // glUniform4f(loc, t*t, 2.0f*t*(1.0f-t), (1.0f-t)*(1.0f-t), 1.0f);
+
     glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0); // 6은 정점 index의 개수, 인덱스 자료형 unsignedint, 첫 정점의 index
     // glDrawArrays(GL_TRIANGLES, 0, 6); // 현재 설정된 program, VBO, VAO로 그림을 그린다. (어떤 VBO? 어떤 VAO? -> 현재 바인딩 되어있는 VBO와 VAO)
     // GL_TRIANGLES: 현재 그리고자 하는 promitive 타입, offset: 그리고자 하는 첫 정점의 index, count: 그리려는 정점의 총 개수
+
+    // time += 0.016f;
 }

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\OpenGL_Study\learn_openGL\build\CMakeFiles\5ac30e94dc3968cc0f1e8e9bd9e488b9\dep_glad-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\learn_openGL\build\CMakeFiles\5ac30e94dc3968cc0f1e8e9bd9e488b9\dep_glad-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\learn_openGL\build\CMakeFiles\5ac30e94dc3968cc0f1e8e9bd9e488b9\dep_glad-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\learn_openGL\build\CMakeFiles\5ac30e94dc3968cc0f1e8e9bd9e488b9\dep_glad-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\learn_openGL\build\CMakeFiles\5ac30e94dc3968cc0f1e8e9bd9e488b9\dep_glad-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\learn_openGL\build\CMakeFiles\5ac30e94dc3968cc0f1e8e9bd9e488b9\dep_glad-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\learn_openGL\build\CMakeFiles\5ac30e94dc3968cc0f1e8e9bd9e488b9\dep_glad-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\learn_openGL\build\CMakeFiles\5ac30e94dc3968cc0f1e8e9bd9e488b9\dep_glad-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\learn_openGL\build\CMakeFiles\424bee0669f0a4e4f6eddc4edc2430c9\dep_glad-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\learn_openGL\build\CMakeFiles\c28bff034a4421428d656608910b2776\dep_glad.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\learn_openGL\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\OpenGL_Study\learn_openGL\build\CMakeFiles\dep_glad" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DB049D30-6415-30F0-B088-33D276C60E42}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\OpenGL_Study\learn_openGL\build\CMakeFiles\4687ae7ab89befdc5ffe83c7fd75cdbb\dep_stb-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\learn_openGL\build\CMakeFiles\4687ae7ab89befdc5ffe83c7fd75cdbb\dep_stb-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\learn_openGL\build\CMakeFiles\4687ae7ab89befdc5ffe83c7fd75cdbb\dep_stb-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\learn_openGL\build\CMakeFiles\4687ae7ab89befdc5ffe83c7fd75cdbb\dep_stb-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\learn_openGL\build\CMakeFiles\4687ae7ab89befdc5ffe83c7fd75cdbb\dep_stb-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\learn_openGL\build\CMakeFiles\4687ae7ab89befdc5ffe83c7fd75cdbb\dep_stb-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\learn_openGL\build\CMakeFiles\4687ae7ab89befdc5ffe83c7fd75cdbb\dep_stb-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\learn_openGL\build\CMakeFiles\4687ae7ab89befdc5ffe83c7fd75cdbb\dep_stb-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\learn_openGL\build\CMakeFiles\424bee0669f0a4e4f6eddc4edc2430c9\dep_stb-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\learn_openGL\build\CMakeFiles\c28bff034a4421428d656608910b2776\dep_stb.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\learn_openGL\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\OpenGL_Study\learn_openGL\build\CMakeFiles\dep_stb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DB049D30-6415-30F0-B088-33D276C60E42}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

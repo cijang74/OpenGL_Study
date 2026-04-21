@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/OpenGL_Study/learn_openGL/build/CMakeFiles/dep_glad"
+		},
+		{
+			"file" : "C:/OpenGL_Study/learn_openGL/build/CMakeFiles/c28bff034a4421428d656608910b2776/dep_glad.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/learn_openGL/build/CMakeFiles/424bee0669f0a4e4f6eddc4edc2430c9/dep_glad-complete.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/learn_openGL/build/CMakeFiles/5ac30e94dc3968cc0f1e8e9bd9e488b9/dep_glad-build.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/learn_openGL/build/CMakeFiles/5ac30e94dc3968cc0f1e8e9bd9e488b9/dep_glad-configure.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/learn_openGL/build/CMakeFiles/5ac30e94dc3968cc0f1e8e9bd9e488b9/dep_glad-download.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/learn_openGL/build/CMakeFiles/5ac30e94dc3968cc0f1e8e9bd9e488b9/dep_glad-install.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/learn_openGL/build/CMakeFiles/5ac30e94dc3968cc0f1e8e9bd9e488b9/dep_glad-mkdir.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/learn_openGL/build/CMakeFiles/5ac30e94dc3968cc0f1e8e9bd9e488b9/dep_glad-patch.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/learn_openGL/build/CMakeFiles/5ac30e94dc3968cc0f1e8e9bd9e488b9/dep_glad-test.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/learn_openGL/build/CMakeFiles/5ac30e94dc3968cc0f1e8e9bd9e488b9/dep_glad-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dep_glad"
+		],
+		"name" : "dep_glad"
+	}
+}

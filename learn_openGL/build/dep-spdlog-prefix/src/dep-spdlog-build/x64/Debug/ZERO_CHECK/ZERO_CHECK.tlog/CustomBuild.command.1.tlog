@@ -1,0 +1,10 @@
+^C:\OPENGL_STUDY\LEARN_OPENGL\BUILD\DEP-SPDLOG-PREFIX\SRC\DEP-SPDLOG-BUILD\CMAKEFILES\65C4B9CE4FBB43C52B63CC63DB2DBE38\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/OpenGL_Study/learn_openGL/build/dep-spdlog-prefix/src/dep-spdlog -BC:/OpenGL_Study/learn_openGL/build/dep-spdlog-prefix/src/dep-spdlog-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/OpenGL_Study/learn_openGL/build/dep-spdlog-prefix/src/dep-spdlog-build/spdlog.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

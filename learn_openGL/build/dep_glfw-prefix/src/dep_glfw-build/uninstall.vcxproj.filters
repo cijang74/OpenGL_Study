@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\OpenGL_Study\learn_openGL\build\dep_glfw-prefix\src\dep_glfw-build\CMakeFiles\20ecbd5806b618f75951102000a47402\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OpenGL_Study\learn_openGL\build\dep_glfw-prefix\src\dep_glfw\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\OpenGL_Study\learn_openGL\build\dep_glfw-prefix\src\dep_glfw-build\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{615B2490-6C0A-3BE9-B43E-07B5E4A2CE00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

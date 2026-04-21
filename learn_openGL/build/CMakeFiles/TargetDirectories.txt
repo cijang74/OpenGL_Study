@@ -1,0 +1,7 @@
+C:/OpenGL_Study/learn_openGL/build/CMakeFiles/learn_openGL.dir
+C:/OpenGL_Study/learn_openGL/build/CMakeFiles/dep-spdlog.dir
+C:/OpenGL_Study/learn_openGL/build/CMakeFiles/dep_glfw.dir
+C:/OpenGL_Study/learn_openGL/build/CMakeFiles/dep_glad.dir
+C:/OpenGL_Study/learn_openGL/build/CMakeFiles/dep_stb.dir
+C:/OpenGL_Study/learn_openGL/build/CMakeFiles/ALL_BUILD.dir
+C:/OpenGL_Study/learn_openGL/build/CMakeFiles/ZERO_CHECK.dir
