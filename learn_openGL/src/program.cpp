@@ -48,3 +48,20 @@ void Program::Use() const
 {
     glUseProgram(m_program);
 }
+
+// unitform이 int일때 사용할 세팅 변수
+void Program::SetUniform(const std::string& name, int value) const 
+{
+    // 쉐이더 코드 내 uniform 변수 위치 받아와서
+    auto loc = glGetUniformLocation(m_program, name.c_str());
+    glUniform1i(loc, value); // 값 설정
+}
+
+// unitform이 mat4일때 사용할 세팅 변수
+void Program::SetUniform(const std::string& name, const glm::mat4& value) const 
+{
+    auto loc = glGetUniformLocation(m_program, name.c_str());
+    
+    // 인자값: uniform 위치, 매트릭스 개수, Transpose가 되어있는지, uniform에 넣어줄 값
+    glUniformMatrix4fv(loc, 1, GL_FALSE, glm::value_ptr(value));
+}

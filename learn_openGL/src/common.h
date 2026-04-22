@@ -8,6 +8,9 @@
 #include <glad/glad.h> // 주의: 반드시 #include <GLFW/glfw3.h> 이전에 추가할 것. 안그러면 오류 생김
 #include <glfw/glfw3.h>
 #include <spdlog/spdlog.h>
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.hpp>
 
 // std::unique_ptr 대신 클래스이름UPtr 사용할 수 있도록 매크로 추가
 // klassName ## UPtr는 내부에서 klassNameUPtr으로 해석됨. klassNameUPtr이라고 프로그래머가 사용하면 컴파일러에서는 std::unique_ptr<klassName>로 자동 해석

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/OpenGL_Study/learn_openGL/build/CMakeFiles/dep_glm"
+		},
+		{
+			"file" : "C:/OpenGL_Study/learn_openGL/build/CMakeFiles/c28bff034a4421428d656608910b2776/dep_glm.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/learn_openGL/build/CMakeFiles/424bee0669f0a4e4f6eddc4edc2430c9/dep_glm-complete.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/learn_openGL/build/CMakeFiles/a11dba0f2f04d36dd01b5db3a8b0aab1/dep_glm-build.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/learn_openGL/build/CMakeFiles/a11dba0f2f04d36dd01b5db3a8b0aab1/dep_glm-configure.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/learn_openGL/build/CMakeFiles/a11dba0f2f04d36dd01b5db3a8b0aab1/dep_glm-download.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/learn_openGL/build/CMakeFiles/a11dba0f2f04d36dd01b5db3a8b0aab1/dep_glm-install.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/learn_openGL/build/CMakeFiles/a11dba0f2f04d36dd01b5db3a8b0aab1/dep_glm-mkdir.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/learn_openGL/build/CMakeFiles/a11dba0f2f04d36dd01b5db3a8b0aab1/dep_glm-patch.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/learn_openGL/build/CMakeFiles/a11dba0f2f04d36dd01b5db3a8b0aab1/dep_glm-test.rule"
+		},
+		{
+			"file" : "C:/OpenGL_Study/learn_openGL/build/CMakeFiles/a11dba0f2f04d36dd01b5db3a8b0aab1/dep_glm-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dep_glm"
+		],
+		"name" : "dep_glm"
+	}
+}
