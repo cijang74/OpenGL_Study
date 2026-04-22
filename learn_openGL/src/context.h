@@ -26,6 +26,7 @@ class Context
         Context() {}
         bool Init();
         ProgramUPtr m_program;
+        ProgramUPtr m_simpleProgram;
 
         // uint32_t m_vertexArrayObject; // VAO 변수 선언
         // uint32_t m_vertexBuffer; // VBO(정점 데이터의 정보)를 담아둘 변수 선언
@@ -43,7 +44,7 @@ class Context
 
         float m_cameraPitch { 0.0f };
         float m_cameraYaw { 0.0f };
-        
+
         glm::vec3 m_cameraPos { glm::vec3(0.0f, 0.0f, 3.0f) }; // 카메라 위치
         glm::vec3 m_cameraFront { glm::vec3(0.0f, 0.0f, -1.0f) }; // 카메라가 바라보는 타겟 (타겟 방향)
         glm::vec3 m_cameraUp { glm::vec3(0.0f, 1.0f, 0.0f) }; // 카매라 UP벡터
@@ -51,6 +52,28 @@ class Context
         // 종횡비 파라미터
         int m_width {WINDOW_WIDTH};
         int m_height {WINDOW_HEIGHT};
+
+        // 빛 파라미터
+        struct Light 
+        {
+            glm::vec3 position { glm::vec3(3.0f, 3.0f, 3.0f) };
+            glm::vec3 ambient { glm::vec3(0.1f, 0.1f, 0.1f) };
+            glm::vec3 diffuse { glm::vec3(0.5f, 0.5f, 0.5f) };
+            glm::vec3 specular { glm::vec3(1.0f, 1.0f, 1.0f) };
+        };
+        Light m_light;
+
+        // 머티리얼 파라미터
+        struct Material 
+        {
+            TextureUPtr diffuse;
+            TextureUPtr specular;
+            float shininess { 32.0f };
+        };
+        Material m_material;
+
+        // 기타 디버깅용
+        bool m_animation { true };
 };
 
 #endif // __CONTEXT_H__

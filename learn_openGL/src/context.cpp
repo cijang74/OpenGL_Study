@@ -15,36 +15,36 @@ ContextUPtr Context::Create()
 // src/main.cpp에서 테스트하던 코드를 가지고 오기
 bool Context::Init() 
 {
-    float vertices[] = {
-    -0.5f, -0.5f, -0.5f, 0.0f, 0.0f, // // x, y, z, s, t
-    0.5f, -0.5f, -0.5f, 1.0f, 0.0f,
-    0.5f,  0.5f, -0.5f, 1.0f, 1.0f,
-    -0.5f,  0.5f, -0.5f, 0.0f, 1.0f,
+    float vertices[] = { // pos.xyz, normal.xyz, texcoord.uv
+    -0.5f, -0.5f, -0.5f,  0.0f,  0.0f, -1.0f, 0.0f, 0.0f,
+    0.5f, -0.5f, -0.5f,  0.0f,  0.0f, -1.0f, 1.0f, 0.0f,
+    0.5f,  0.5f, -0.5f,  0.0f,  0.0f, -1.0f, 1.0f, 1.0f,
+    -0.5f,  0.5f, -0.5f,  0.0f,  0.0f, -1.0f, 0.0f, 1.0f,
 
-    -0.5f, -0.5f,  0.5f, 0.0f, 0.0f,
-    0.5f, -0.5f,  0.5f, 1.0f, 0.0f,
-    0.5f,  0.5f,  0.5f, 1.0f, 1.0f,
-    -0.5f,  0.5f,  0.5f, 0.0f, 1.0f,
+    -0.5f, -0.5f,  0.5f,  0.0f,  0.0f,  1.0f, 0.0f, 0.0f,
+    0.5f, -0.5f,  0.5f,  0.0f,  0.0f,  1.0f, 1.0f, 0.0f,
+    0.5f,  0.5f,  0.5f,  0.0f,  0.0f,  1.0f, 1.0f, 1.0f,
+    -0.5f,  0.5f,  0.5f,  0.0f,  0.0f,  1.0f, 0.0f, 1.0f,
 
-    -0.5f,  0.5f,  0.5f, 1.0f, 0.0f,
-    -0.5f,  0.5f, -0.5f, 1.0f, 1.0f,
-    -0.5f, -0.5f, -0.5f, 0.0f, 1.0f,
-    -0.5f, -0.5f,  0.5f, 0.0f, 0.0f,
+    -0.5f,  0.5f,  0.5f, -1.0f,  0.0f,  0.0f, 1.0f, 0.0f,
+    -0.5f,  0.5f, -0.5f, -1.0f,  0.0f,  0.0f, 1.0f, 1.0f,
+    -0.5f, -0.5f, -0.5f, -1.0f,  0.0f,  0.0f, 0.0f, 1.0f,
+    -0.5f, -0.5f,  0.5f, -1.0f,  0.0f,  0.0f, 0.0f, 0.0f,
 
-    0.5f,  0.5f,  0.5f, 1.0f, 0.0f,
-    0.5f,  0.5f, -0.5f, 1.0f, 1.0f,
-    0.5f, -0.5f, -0.5f, 0.0f, 1.0f,
-    0.5f, -0.5f,  0.5f, 0.0f, 0.0f,
+    0.5f,  0.5f,  0.5f,  1.0f,  0.0f,  0.0f, 1.0f, 0.0f,
+    0.5f,  0.5f, -0.5f,  1.0f,  0.0f,  0.0f, 1.0f, 1.0f,
+    0.5f, -0.5f, -0.5f,  1.0f,  0.0f,  0.0f, 0.0f, 1.0f,
+    0.5f, -0.5f,  0.5f,  1.0f,  0.0f,  0.0f, 0.0f, 0.0f,
 
-    -0.5f, -0.5f, -0.5f, 0.0f, 1.0f,
-    0.5f, -0.5f, -0.5f, 1.0f, 1.0f,
-    0.5f, -0.5f,  0.5f, 1.0f, 0.0f,
-    -0.5f, -0.5f,  0.5f, 0.0f, 0.0f,
+    -0.5f, -0.5f, -0.5f,  0.0f, -1.0f,  0.0f, 0.0f, 1.0f,
+    0.5f, -0.5f, -0.5f,  0.0f, -1.0f,  0.0f, 1.0f, 1.0f,
+    0.5f, -0.5f,  0.5f,  0.0f, -1.0f,  0.0f, 1.0f, 0.0f,
+    -0.5f, -0.5f,  0.5f,  0.0f, -1.0f,  0.0f, 0.0f, 0.0f,
 
-    -0.5f,  0.5f, -0.5f, 0.0f, 1.0f,
-    0.5f,  0.5f, -0.5f, 1.0f, 1.0f,
-    0.5f,  0.5f,  0.5f, 1.0f, 0.0f,
-    -0.5f,  0.5f,  0.5f, 0.0f, 0.0f,
+    -0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f, 0.0f, 1.0f,
+    0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f, 1.0f, 1.0f,
+    0.5f,  0.5f,  0.5f,  0.0f,  1.0f,  0.0f, 1.0f, 0.0f,
+    -0.5f,  0.5f,  0.5f,  0.0f,  1.0f,  0.0f, 0.0f, 0.0f,
     };
 
     uint32_t indices[] = {
@@ -61,42 +61,30 @@ bool Context::Init()
 
     // VBO 만들기
     // GL_ARRAY_BUFFER: 사용할 buffer object는 vertex data를 저장할 용도임을 알림 (위치, 색상값으로 사용할 버퍼임을 알림)
-    m_vertexBuffer = Buffer::CreateWithData(GL_ARRAY_BUFFER, GL_STATIC_DRAW, vertices, sizeof(float) * 120);
+    m_vertexBuffer = Buffer::CreateWithData(GL_ARRAY_BUFFER, GL_STATIC_DRAW, vertices, sizeof(float) * 8 * 6 * 4);
     
     // // VAO와 VBO 연결
-    m_vertexLayout->SetAttrib(0, 3, GL_FLOAT, GL_FALSE, sizeof(float) * 5, 0);
-    // m_vertexLayout->SetAttrib(1, 3, GL_FLOAT, GL_FALSE, sizeof(float) * 8, sizeof(float) * 3); // 추가. Color가 시작되는 부분은 sizeof(float) * 3이후부터 이므로 offset 지정
-    m_vertexLayout->SetAttrib(2, 2, GL_FLOAT, GL_FALSE, sizeof(float) * 5, sizeof(float) * 3);
+    m_vertexLayout->SetAttrib(0, 3, GL_FLOAT, GL_FALSE, sizeof(float) * 8, 0);
+    m_vertexLayout->SetAttrib(1, 3, GL_FLOAT, GL_FALSE, sizeof(float) * 8, sizeof(float) * 3);
+    m_vertexLayout->SetAttrib(2, 2, GL_FLOAT, GL_FALSE, sizeof(float) * 8, sizeof(float) * 6);
 
     // glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, m_indexBuffer); // 지금부터 사용할 buffer object를 지정 -> m_vertexBuffer는 GL_ELEMENT_ARRAY_BUFFER 용도로 쓸거야.
     m_indexBuffer = Buffer::CreateWithData(GL_ELEMENT_ARRAY_BUFFER, GL_STATIC_DRAW, indices, sizeof(uint32_t) * 36); // 벡터가 아닌, 정수값들만 읽어오면 되기에 VAO 작성 필요 X
 
     // shader.h, shader.cpp에 작성된 함수들은 glad 함수를 사용하기 때문에 초기화 이후 사용 가능
-    // 쉐이더 인스턴스 생성
-    ShaderPtr vertShader = Shader::CreateFromFile("./shader/texture.vs", GL_VERTEX_SHADER);
-    ShaderPtr fragShader = Shader::CreateFromFile("./shader/texture.fs", GL_FRAGMENT_SHADER);
-
-    if (!vertShader || !fragShader)
+    // 간단한 그림 그리기용 프로그램
+    m_simpleProgram = Program::Create("./shader/simple.vs", "./shader/simple.fs");
+    if (!m_simpleProgram)
     {
         return false;
     }
 
-    SPDLOG_INFO("vertex shader id: {}", vertShader->Get());
-    SPDLOG_INFO("fragment shader id: {}", fragShader->Get());
-
-    // 앞에서 생성한 쉐이더 인스턴스를 가지고 프로그램 인스턴스 생성
-    m_program = Program::Create({fragShader, vertShader});
-
+    // 라이팅 적용시킨 그림 그리기용 프로그램
+    m_program = Program::Create("./shader/lighting.vs", "./shader/lighting.fs");
     if (!m_program)
     {
         return false;
     }
-    SPDLOG_INFO("program id: {}", m_program->Get());
-
-    // uniform 입력 과정
-    // auto loc = glGetUniformLocation(m_program->Get(), "color"); // 프로그램 내 color 변수 핸들(int)을 얻는다.
-    // m_program->Use(); // 현재 사용할 프로그램으로 등록 후 (해당 프로그램을 가지고 그림을 그리겠다 선언)
-    // glUniform4f(loc, 1.0f, 1.0f, 0.0f, 1.0f); // 위에서 얻은 변수 핸들을 통해 값을 전달한다.
 
     // 화면을 지우려고 할 때 어떤 색으로 지울지 세팅
     glClearColor(0.1f, 0.2f, 0.3f, 0.0f);
@@ -116,6 +104,12 @@ bool Context::Init()
     // 두 번째 이미지 로드하여 텍스쳐 생성하여 바인딩
     auto image2 = Image::Load("./image/awesomeface.png");
     m_texture2 = Texture::CreateFromImage(image2.get());
+
+    // 디퓨즈로 사용할 텍스쳐 바인딩
+    m_material.diffuse = Texture::CreateFromImage(Image::Load("./image/container2.png").get());
+
+    // 스펙큘러 계산에 사용할 텍스쳐 이미지 바인딩
+    m_material.specular = Texture::CreateFromImage(Image::Load("./image/container2_specular.png").get());
 
     // 내가 지금부터 사용할 텍스쳐 슬롯 번호는 0번입니다.
     glActiveTexture(GL_TEXTURE0);
@@ -153,7 +147,6 @@ void Context::Render()
     // 버퍼 초기화
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glEnable(GL_DEPTH_TEST);
-    m_program->Use();
 
     m_cameraFront = glm::rotate(glm::mat4(1.0f), glm::radians(m_cameraYaw), glm::vec3(0.0f, 1.0f, 0.0f)) * // y축 기준으로 yaw 각도 만큼 회전
     glm::rotate(glm::mat4(1.0f), glm::radians(m_cameraPitch), glm::vec3(1.0f, 0.0f, 0.0f)) * // x축 기준으로 pitch 각도 만큼 회전
@@ -162,22 +155,52 @@ void Context::Render()
     // 종횡비 4:3, 세로화각(FOV) 45도의 원근 투영, 원근 투영 시작점 0.01f, 끝점 10.0f 
     auto projection = glm::perspective(glm::radians(45.0f), (float)m_width / (float)m_height, 0.01f, 30.0f);
 
-    // 카메라는 원점으로부터 z축 방향으로 -3만큼 떨어짐
-    // auto view = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, -3.0f));
-
     // 카메라가 바라보는 타겟의 위치는 카메라 position에서 타겟의 방향벡터 더해주면 됨
     auto view = glm::lookAt(m_cameraPos, m_cameraPos + m_cameraFront, m_cameraUp);
+
+    // 광원 표시용으로, m_lightPos위치에 lightColor색으로 큐브 그리기 세팅
+    auto lightModelTransform = glm::translate(glm::mat4(1.0), m_light.position) * glm::scale(glm::mat4(1.0), glm::vec3(0.1f));
+    m_simpleProgram->Use();
+    m_simpleProgram->SetUniform("color", glm::vec4(m_light.ambient + m_light.diffuse, 1.0f));
+    m_simpleProgram->SetUniform("transform", projection * view * lightModelTransform);
+    glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+
+    // 나머지 큐브들 그리기 세팅
+    m_program->Use();
+    m_program->SetUniform("viewPos", m_cameraPos);
+    m_program->SetUniform("light.position", m_light.position);
+    m_program->SetUniform("light.ambient", m_light.ambient);
+    m_program->SetUniform("light.diffuse", m_light.diffuse);
+    m_program->SetUniform("light.specular", m_light.specular);
+    m_program->SetUniform("material.diffuse", 0); // 사용할 텍스쳐 슬롯 번호 입력
+    m_program->SetUniform("material.specular", 1); // 사용할 텍스쳐 슬롯 번호 입력
+    m_program->SetUniform("material.shininess", m_material.shininess);
+
+    // 내가 지금부터 사용할 텍스쳐 슬롯 번호는 0번입니다.
+    glActiveTexture(GL_TEXTURE0);
+    m_material.diffuse->Bind(); // 0번 슬롯에 사용하려는 GL_TEXTURE_2D 형태의 텍스쳐 객체 id를 준비해놓을게요.
+
+    glActiveTexture(GL_TEXTURE1);
+    m_material.specular->Bind();
 
     for (size_t i = 0; i < cubePositions.size(); i++)
     {
         auto& pos = cubePositions[i]; // 이번에 소환할 큐브의 위치값
         auto model = glm::translate(glm::mat4(1.0f), pos); // 소환할 큐브를 위치값으로 이동
         // 큐브를 x축으로 매 초마다 140 + i도, y축으로 매 초마다 70 + i/2도 회전
-        model = glm::rotate(model, glm::radians((float)glfwGetTime() * 120.0f + 20.0f * (float)i), glm::vec3(1.0f, 0.5f, 0.0f));
+        // model = glm::rotate(model, glm::radians((float)glfwGetTime() * 120.0f + 20.0f * (float)i), glm::vec3(1.0f, 0.5f, 0.0f));
+
+        // m_animation 값에 따라 회전 애니메이션 적용
+        auto angle = glm::radians((float)glfwGetTime() * 120.0f + 20.0f * (float)i);
+        model = glm::rotate(model, m_animation ? angle : 0.0f, glm::vec3(1.0f, 0.5f, 0.0f));
 
         // transform 계산하여 uniform에 넣어주기
         auto transform = projection * view * model;
         m_program->SetUniform("transform", transform);
+
+        // Model Metrix(월드 좌표계) uniform에 넣어주기
+        m_program->SetUniform("modelTransform", model);
+
         glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
     }
 }
