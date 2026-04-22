@@ -130,44 +130,12 @@ bool Context::Init()
     m_program->SetUniform("tex", 0);
     m_program->SetUniform("tex2", 1);
 
-    // x축으로 -55도 회전
-    auto model = glm::rotate(glm::mat4(1.0f), glm::radians(-55.0f), glm::vec3(1.0f, 0.0f, 0.0f)); // 로컬 스페이스 -> 월드 스페이스
-
-    // 카메라는 원점으로부터 z축 방향으로 -3만큼 떨어짐
-    auto view = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, -3.0f)); // 월드 스페이스 -> 뷰 스페이스
-
-    // 종횡비 4:3, 세로화각(FOV) 45도의 원근 투영, 원근 투영 시작점 0.01f, 끝점 10.0f 
-    auto projection = glm::perspective(glm::radians(45.0f), (float)WINDOW_WIDTH / (float)WINDOW_HEIGHT, 0.01f, 10.0f); // 뷰 스페이스 -> 클립 스페이스
-    auto transform = projection * view * model;
-    m_program->SetUniform("transform", transform);
-
     return true;
 }
 
 // 해당 메서드는 루프문에서 돌아감
 void Context::Render() 
 {
-    // glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); // glClearColor로 세팅한 색으로 색상 버퍼 초기화, 깊이 버퍼도 초기화
-    // glEnable(GL_DEPTH_TEST); // 깊이 테스트 활성화
-    
-    // // vertex array가 바인딩된 프로그램을 가져와 vertex array를 통해 그림 그리기
-    // m_program->Use();
-    
-    // // 종횡비 4:3, 세로화각(FOV) 45도의 원근 투영, 원근 투영 시작점 0.01f, 끝점 10.0f 
-    // auto projection = glm::perspective(glm::radians(45.0f), (float)WINDOW_WIDTH / (float)WINDOW_HEIGHT, 0.01f, 10.0f);
-
-    // // 카메라는 원점으로부터 z축 방향으로 -3만큼 떨어짐
-    // auto view = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, -3.0f));
-
-    // // x축으로 매 초마다 120도, y축으로 매 초마다 60도 회전
-    // auto model = glm::rotate(glm::mat4(1.0f), glm::radians((float)glfwGetTime() * 120.0f), glm::vec3(1.0f, 0.5f, 0.0f));
-
-    // auto transform = projection * view * model;
-    // m_program->SetUniform("transform", transform);
-
-    // glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0); // 36은 정점 index의 개수, 인덱스 자료형 unsignedint, 첫 정점의 index
-    // // GL_TRIANGLES: 현재 그리고자 하는 promitive 타입, offset: 그리고자 하는 첫 정점의 index, count: 그리려는 정점의 총 개수
-
     // 큐브 소환할 위치들 지정
     std::vector<glm::vec3> cubePositions = {
         glm::vec3( 0.0f, 0.0f, 0.0f),
@@ -187,11 +155,18 @@ void Context::Render()
     glEnable(GL_DEPTH_TEST);
     m_program->Use();
 
+    m_cameraFront = glm::rotate(glm::mat4(1.0f), glm::radians(m_cameraYaw), glm::vec3(0.0f, 1.0f, 0.0f)) * // y축 기준으로 yaw 각도 만큼 회전
+    glm::rotate(glm::mat4(1.0f), glm::radians(m_cameraPitch), glm::vec3(1.0f, 0.0f, 0.0f)) * // x축 기준으로 pitch 각도 만큼 회전
+    glm::vec4(0.0f, 0.0f, -1.0f, 0.0f); // z축 방향, 동차좌표계에 1을 집어넣으면 점, 0을 집어넣으면 벡터
+
     // 종횡비 4:3, 세로화각(FOV) 45도의 원근 투영, 원근 투영 시작점 0.01f, 끝점 10.0f 
-    auto projection = glm::perspective(glm::radians(45.0f), (float)WINDOW_WIDTH / (float)WINDOW_HEIGHT, 0.01f, 20.0f);
+    auto projection = glm::perspective(glm::radians(45.0f), (float)m_width / (float)m_height, 0.01f, 30.0f);
 
     // 카메라는 원점으로부터 z축 방향으로 -3만큼 떨어짐
-    auto view = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, -3.0f));
+    // auto view = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, -3.0f));
+
+    // 카메라가 바라보는 타겟의 위치는 카메라 position에서 타겟의 방향벡터 더해주면 됨
+    auto view = glm::lookAt(m_cameraPos, m_cameraPos + m_cameraFront, m_cameraUp);
 
     for (size_t i = 0; i < cubePositions.size(); i++)
     {
@@ -204,5 +179,122 @@ void Context::Render()
         auto transform = projection * view * model;
         m_program->SetUniform("transform", transform);
         glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+    }
+}
+
+// 키보드 입력했을 때 카메라 Position값 수정하는 함수
+void Context::ProcessInput(GLFWwindow* window) 
+{
+    // 우클릭을 통한 카메라 상호작용중이 아니라면 리턴
+    if (!m_cameraControl)
+    {
+        return;
+    }
+
+    const float cameraSpeed = 0.05f;
+    if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
+    {
+        m_cameraPos += cameraSpeed * m_cameraFront;
+    }
+
+    if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
+    {
+        m_cameraPos -= cameraSpeed * m_cameraFront;
+    }
+
+    auto cameraRight = glm::normalize(glm::cross(m_cameraUp, -m_cameraFront));
+    if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
+    {
+        m_cameraPos += cameraSpeed * cameraRight;
+    }
+
+    if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
+    {
+        m_cameraPos -= cameraSpeed * cameraRight;    
+    }
+
+    auto cameraUp = glm::normalize(glm::cross(-m_cameraFront, cameraRight));
+    if (glfwGetKey(window, GLFW_KEY_E) == GLFW_PRESS)
+    {
+        m_cameraPos += cameraSpeed * cameraUp;
+    }
+
+    if (glfwGetKey(window, GLFW_KEY_Q) == GLFW_PRESS)
+    {
+        m_cameraPos -= cameraSpeed * cameraUp;
+    }
+}
+
+void Context::Reshape(int width, int height) 
+{
+    m_width = width;
+    m_height = height;
+    glViewport(0, 0, m_width, m_height);
+}
+
+// 마우스가 움직인 좌표 x, y 인자값으로 받아 Pitch와 Yaw값 바꿔주기
+void Context::MouseMove(double x, double y) 
+{
+    // 우클릭을 통한 카메라 상호작용중이 아니라면 리턴
+    if (!m_cameraControl)
+    {
+        return;
+    }
+
+    // 현재 Pos값
+    auto pos = glm::vec2((float)x, (float)y);
+
+    // 현재 Pos값 - 이전 Pos값 = 현재 얼마만큼 이동했는지의 변화값
+    auto deltaPos = pos - m_prevMousePos;
+
+    // 회전 Speed
+    const float cameraRotSpeed = 0.8f;
+
+    m_cameraYaw -= deltaPos.x * cameraRotSpeed;
+    m_cameraPitch -= deltaPos.y * cameraRotSpeed;
+
+    // 0~360으로 Clamping 하기 위한 if문들
+    if (m_cameraYaw < 0.0f)
+    {
+        m_cameraYaw += 360.0f;
+    }   
+
+    if (m_cameraYaw > 360.0f)
+    {
+        m_cameraYaw -= 360.0f;
+    }
+
+    if (m_cameraPitch > 89.0f) 
+    {
+        m_cameraPitch = 89.0f;
+    }
+
+    if (m_cameraPitch < -89.0f) 
+    {
+        m_cameraPitch = -89.0f;
+    }
+
+    // 이전 Pos값 갱신
+    m_prevMousePos = pos;    
+}
+
+void Context::MouseButton(int button, int action, double x, double y) 
+{
+    // 입력의 종류가 마우스 우측버튼이라면
+    if (button == GLFW_MOUSE_BUTTON_RIGHT) 
+    {
+        // 버튼을 누른것이라면
+        if (action == GLFW_PRESS) 
+        {
+            // 마우스 조작 시작 시점에 현재 마우스 커서 위치 저장
+            m_prevMousePos = glm::vec2((float)x, (float)y); // 저장 및 초기화의 역할도 수행
+            m_cameraControl = true;
+        }
+
+        // 버튼을 누르지 않았다면
+        else if (action == GLFW_RELEASE) 
+        {
+            m_cameraControl = false;
+        }
     }
 }

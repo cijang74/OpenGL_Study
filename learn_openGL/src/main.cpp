@@ -7,7 +7,8 @@
 void OnFramebufferSizeChange(GLFWwindow* window, int width, int height) 
 {
     SPDLOG_INFO("framebuffer size changed: ({} x {})", width, height);
-    glViewport(0, 0, width, height); // glViewport: OpenGL이 그림을 그릴 영역 지정
+    auto context = (Context*)glfwGetWindowUserPointer(window); // window에 저장되어있던 context 포인터를 가지고 와서
+    context->Reshape(width, height); // context 내부의 Reshape 함수 사용하기
 }
 
 // 키보드 입력이 이루어졌을 때 호출 할 콜백 함수 정의
@@ -28,6 +29,22 @@ void OnKeyEvent(GLFWwindow* window, int key, int scancode, int action, int mods)
     {
         glfwSetWindowShouldClose(window, true);
     }
+}
+
+// 마우스 커서 입력이 이루어졌을 때 호출 할 콜백 함수 정의
+void OnCursorPos(GLFWwindow* window, double x, double y) 
+{
+    auto context = (Context*)glfwGetWindowUserPointer(window);
+    context->MouseMove(x, y);
+}
+
+// 마우스 버튼 입력이 이루어졌을 때 호출 할 콜백 함수 정의
+void OnMouseButton(GLFWwindow* window, int button, int action, int modifier) 
+{
+    auto context = (Context*)glfwGetWindowUserPointer(window);
+    double x, y;
+    glfwGetCursorPos(window, &x, &y);
+    context->MouseButton(button, action, x, y);
 }
 
 int main(int argc, const char** argv) 
@@ -87,16 +104,22 @@ int main(int argc, const char** argv)
         return -1;
     }
 
+    // 윈도우에 임의의 포인터를 세팅할 수 있음 -> context.get()를 통해서 우리가 만든 context의 포인터값을 들고올 것.
+    glfwSetWindowUserPointer(window, context.get());
+
     // 콜백함수 바인딩
     OnFramebufferSizeChange(window, WINDOW_WIDTH, WINDOW_HEIGHT); // 프레임버퍼 변경 이벤트가 첫 생성 직후에는 발생하지 않으므로 수동 호출 -> 그림 그릴 영역 지정
     glfwSetFramebufferSizeCallback(window, OnFramebufferSizeChange);
     glfwSetKeyCallback(window, OnKeyEvent);
+    glfwSetCursorPosCallback(window, OnCursorPos);
+    glfwSetMouseButtonCallback(window, OnMouseButton);
 
     // glfw 루프 실행, 윈도우 close 버튼을 누르면 정상 종료. 루프를 돌아야 창이 생성되고 나서 바로 종료되는 현상이 발생 안함.
     SPDLOG_INFO("Start main loop");
     while (!glfwWindowShouldClose(window)) // 윈도우를 닫아야 한다는 신호를 받기 전까지는 계속 루프를 돈다
     {
         glfwPollEvents(); // 윈도우에서 입력받은 이벤트 (키보드, 마우스 등)..을 감지
+        context->ProcessInput(window);
         // glClearColor(0.1f, 0.2f, 0.3f, 0.0f); // 화면을 지우려고 할 때 어떤 색으로 지울지 세팅
         // glClear(GL_COLOR_BUFFER_BIT); // 백 버퍼 화면 지우기 (교체 전까지 뭔가 그린다는 것 -> 백버퍼에 그린다는 것)
         context->Render();
